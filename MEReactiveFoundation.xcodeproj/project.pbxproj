@@ -479,8 +479,6 @@
 				INFOPLIST_FILE = "MEReactiveFoundationTests/MEReactiveFoundationTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-framework",
-					XCTest,
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -502,8 +500,6 @@
 				INFOPLIST_FILE = "MEReactiveFoundationTests/MEReactiveFoundationTests-Info.plist";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-framework",
-					XCTest,
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
