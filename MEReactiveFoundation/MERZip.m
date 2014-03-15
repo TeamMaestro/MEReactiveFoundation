@@ -1,5 +1,5 @@
 //
-//  MEReactiveFoundation.h
+//  MERZip.m
 //  MEReactiveFoundation
 //
 //  Created by William Towe on 1/24/14.
@@ -11,17 +11,28 @@
 //
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#ifndef _ME_REACTIVE_FOUNDATION_
-#define _ME_REACTIVE_FOUNDATION_
+#import "MERZip.h"
+#import "MERFold.h"
 
-#import <MEReactiveFoundation/MERMap.h>
-#import <MEReactiveFoundation/MERFilter.h>
-#import <MEReactiveFoundation/MERFold.h>
-#import <MEReactiveFoundation/MERZip.h>
-#import <MEReactiveFoundation/MERUnzip.h>
+id MERZip(id<NSObject,NSFastEnumeration> collection) {
+    if ([collection isKindOfClass:[NSArray class]]) {
+        NSMutableArray *retval = [[NSMutableArray alloc] init];
+        NSArray *array = (NSArray *)collection;
+        NSUInteger count = [MERFoldLeft(array, @(NSNotFound), ^id(NSNumber *accumulator, NSArray *value, BOOL *stop) {
+            return @(accumulator.unsignedIntegerValue > value.count ? value.count : accumulator.unsignedIntegerValue);
+        }) unsignedIntegerValue];
 
-#import <MEReactiveFoundation/NSArray+MERExtensions.h>
-#import <MEReactiveFoundation/NSSet+MERExtensions.h>
-#import <MEReactiveFoundation/NSDictionary+MERExtensions.h>
-
-#endif
+        for (NSUInteger i=0; i<count; i++) {
+            NSArray *zippedArray = MERFoldLeft(array, [[NSMutableArray alloc] init], ^id(NSMutableArray *accumulator, NSArray *value, BOOL *stop) {
+                [accumulator addObject:value[i]];
+                
+                return accumulator;
+            });
+            
+            [retval addObject:zippedArray];
+        }
+        
+        return retval;
+    }
+    return nil;
+}

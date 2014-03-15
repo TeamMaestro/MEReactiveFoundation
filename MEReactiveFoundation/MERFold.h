@@ -1,5 +1,5 @@
 //
-//  MEReactiveFoundation.h
+//  MERFold.h
 //  MEReactiveFoundation
 //
 //  Created by William Towe on 1/24/14.
@@ -11,17 +11,15 @@
 //
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#ifndef _ME_REACTIVE_FOUNDATION_
-#define _ME_REACTIVE_FOUNDATION_
+#import <Foundation/Foundation.h>
 
-#import <MEReactiveFoundation/MERMap.h>
-#import <MEReactiveFoundation/MERFilter.h>
-#import <MEReactiveFoundation/MERFold.h>
-#import <MEReactiveFoundation/MERZip.h>
-#import <MEReactiveFoundation/MERUnzip.h>
+extern id MERFoldLeft(id<NSObject,NSFastEnumeration> collection, id start, id(^block)(id accumulator, id value, BOOL *stop));
+extern id MERFoldLeftDictionary(NSDictionary *dictionary, id start, id(^block)(id accumulator, id<NSCopying> key, id value, BOOL *stop));
 
-#import <MEReactiveFoundation/NSArray+MERExtensions.h>
-#import <MEReactiveFoundation/NSSet+MERExtensions.h>
-#import <MEReactiveFoundation/NSDictionary+MERExtensions.h>
+extern id MERFoldRight(id<NSObject,NSFastEnumeration> collection, id start, id(^block)(id accumulator, id value, BOOL *stop));
 
-#endif
+extern BOOL MERAny(id<NSObject,NSFastEnumeration> collection, BOOL(^block)(id value));
+extern BOOL MERAnyDictionary(NSDictionary *dictionary, BOOL(^block)(id<NSCopying> key, id value));
+
+extern BOOL MERAll(id<NSObject,NSFastEnumeration> collection, BOOL(^block)(id value));
+extern BOOL MERAllDictionary(NSDictionary *dictionary, BOOL(^block)(id<NSCopying> key, id value));
