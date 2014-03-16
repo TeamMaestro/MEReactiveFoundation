@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "MEReactiveFoundation"
-  spec.version = "1.0.0"
+  spec.version = "1.0.1"
   spec.authors = {"William Towe" => "willbur1984@gmail.com"}
   spec.license = {:type => "MIT", :file => "LICENSE.txt"}
   spec.homepage = "https://github.com/MaestroElearning/MEReactiveFoundation"
@@ -15,4 +15,5 @@ Pod::Spec.new do |spec|
   spec.frameworks = "Foundation"
   
   spec.source_files = "MEReactiveFoundation"
+  spec.private_header_files = "MEReactiveFoundation/Private"
 end
