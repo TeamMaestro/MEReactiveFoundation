@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
   spec.frameworks = "Foundation"
   
-  spec.source_files = "MEReactiveFoundation"
+  spec.source_files = "MEReactiveFoundation", "MEReactiveFoundation/Private"
   spec.private_header_files = "MEReactiveFoundation/Private"
 end
