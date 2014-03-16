@@ -59,6 +59,11 @@
 		79E1FAE018D55B9A00A2414E /* MERMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1FAD318D55B6800A2414E /* MERMap.m */; };
 		79E1FAE118D55B9A00A2414E /* MERUnzip.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1FAD518D55B6800A2414E /* MERUnzip.m */; };
 		79E1FAE218D55B9A00A2414E /* MERZip.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1FAD718D55B6800A2414E /* MERZip.m */; };
+		79E1FAE418D55CF000A2414E /* MERFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FACE18D55B6800A2414E /* MERFilter.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		79E1FAE518D55CF000A2414E /* MERFold.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FAD018D55B6800A2414E /* MERFold.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		79E1FAE618D55CF000A2414E /* MERMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FAD218D55B6800A2414E /* MERMap.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		79E1FAE718D55CF000A2414E /* MERUnzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FAD418D55B6800A2414E /* MERUnzip.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		79E1FAE818D55CF000A2414E /* MERZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FAD618D55B6800A2414E /* MERZip.h */; settings = {ATTRIBUTES = (Private, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -363,6 +368,11 @@
 				79E1FAAD18D5133800A2414E /* NSArray+MERExtensions.h in Headers */,
 				79E1FAAE18D5133800A2414E /* NSDictionary+MERExtensions.h in Headers */,
 				79E1FAAF18D5133800A2414E /* NSSet+MERExtensions.h in Headers */,
+				79E1FAE418D55CF000A2414E /* MERFilter.h in Headers */,
+				79E1FAE518D55CF000A2414E /* MERFold.h in Headers */,
+				79E1FAE618D55CF000A2414E /* MERMap.h in Headers */,
+				79E1FAE718D55CF000A2414E /* MERUnzip.h in Headers */,
+				79E1FAE818D55CF000A2414E /* MERZip.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
