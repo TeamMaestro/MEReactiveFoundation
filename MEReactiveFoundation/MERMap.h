@@ -13,5 +13,8 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Private functions used to implement map functionality on `NSArray`, `NSSet`, and `NSDictionary`.
+ */
 extern id MERMap(id<NSObject,NSFastEnumeration> collection, id(^block)(id value));
 extern NSDictionary *MERMapDictionary(NSDictionary *dictionary, NSArray*(^block)(id<NSCopying> key, id value));

@@ -30,11 +30,6 @@
 		79E1FA6418D50F7D00A2414E /* NSDictionary+MERExtensionsTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1FA5C18D50F7D00A2414E /* NSDictionary+MERExtensionsTestCase.m */; };
 		79E1FA6518D50F7D00A2414E /* NSSet+MERExtensionsTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1FA5D18D50F7D00A2414E /* NSSet+MERExtensionsTestCase.m */; };
 		79E1FA6818D5119100A2414E /* MEReactiveFoundation.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA3D18D5099400A2414E /* MEReactiveFoundation.h */; };
-		79E1FA6918D5119100A2414E /* MERFilter.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA3E18D5099400A2414E /* MERFilter.h */; };
-		79E1FA6A18D5119100A2414E /* MERFold.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA4018D5099400A2414E /* MERFold.h */; };
-		79E1FA6B18D5119100A2414E /* MERMap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA4218D5099400A2414E /* MERMap.h */; };
-		79E1FA6C18D5119100A2414E /* MERUnzip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA4418D5099400A2414E /* MERUnzip.h */; };
-		79E1FA6D18D5119100A2414E /* MERZip.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA4618D5099400A2414E /* MERZip.h */; };
 		79E1FA6E18D5119100A2414E /* NSArray+MERExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA4818D5099400A2414E /* NSArray+MERExtensions.h */; };
 		79E1FA6F18D5119100A2414E /* NSDictionary+MERExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA4A18D5099400A2414E /* NSDictionary+MERExtensions.h */; };
 		79E1FA7018D5119100A2414E /* NSSet+MERExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79E1FA4C18D5099400A2414E /* NSSet+MERExtensions.h */; };
@@ -53,11 +48,6 @@
 		79E1FAA518D5132100A2414E /* NSDictionary+MERExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1FA4B18D5099400A2414E /* NSDictionary+MERExtensions.m */; };
 		79E1FAA618D5132100A2414E /* NSSet+MERExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79E1FA4D18D5099400A2414E /* NSSet+MERExtensions.m */; };
 		79E1FAA718D5133800A2414E /* MEReactiveFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA3D18D5099400A2414E /* MEReactiveFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E1FAA818D5133800A2414E /* MERFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA3E18D5099400A2414E /* MERFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E1FAA918D5133800A2414E /* MERFold.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA4018D5099400A2414E /* MERFold.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E1FAAA18D5133800A2414E /* MERMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA4218D5099400A2414E /* MERMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E1FAAB18D5133800A2414E /* MERUnzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA4418D5099400A2414E /* MERUnzip.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79E1FAAC18D5133800A2414E /* MERZip.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA4618D5099400A2414E /* MERZip.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79E1FAAD18D5133800A2414E /* NSArray+MERExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA4818D5099400A2414E /* NSArray+MERExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79E1FAAE18D5133800A2414E /* NSDictionary+MERExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA4A18D5099400A2414E /* NSDictionary+MERExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		79E1FAAF18D5133800A2414E /* NSSet+MERExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E1FA4C18D5099400A2414E /* NSSet+MERExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -96,11 +86,6 @@
 			dstSubfolderSpec = 16;
 			files = (
 				79E1FA6818D5119100A2414E /* MEReactiveFoundation.h in CopyFiles */,
-				79E1FA6918D5119100A2414E /* MERFilter.h in CopyFiles */,
-				79E1FA6A18D5119100A2414E /* MERFold.h in CopyFiles */,
-				79E1FA6B18D5119100A2414E /* MERMap.h in CopyFiles */,
-				79E1FA6C18D5119100A2414E /* MERUnzip.h in CopyFiles */,
-				79E1FA6D18D5119100A2414E /* MERZip.h in CopyFiles */,
 				79E1FA6E18D5119100A2414E /* NSArray+MERExtensions.h in CopyFiles */,
 				79E1FA6F18D5119100A2414E /* NSDictionary+MERExtensions.h in CopyFiles */,
 				79E1FA7018D5119100A2414E /* NSSet+MERExtensions.h in CopyFiles */,
@@ -359,11 +344,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				79E1FAA718D5133800A2414E /* MEReactiveFoundation.h in Headers */,
-				79E1FAA818D5133800A2414E /* MERFilter.h in Headers */,
-				79E1FAA918D5133800A2414E /* MERFold.h in Headers */,
-				79E1FAAA18D5133800A2414E /* MERMap.h in Headers */,
-				79E1FAAB18D5133800A2414E /* MERUnzip.h in Headers */,
-				79E1FAAC18D5133800A2414E /* MERZip.h in Headers */,
 				79E1FAAD18D5133800A2414E /* NSArray+MERExtensions.h in Headers */,
 				79E1FAAE18D5133800A2414E /* NSDictionary+MERExtensions.h in Headers */,
 				79E1FAAF18D5133800A2414E /* NSSet+MERExtensions.h in Headers */,
@@ -715,7 +695,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MEReactiveFoundationFramework.framework/Versions/A/MEReactiveFoundationFramework";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/libMEReactiveFoundation.a";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -742,7 +722,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MEReactiveFoundationFramework.framework/Versions/A/MEReactiveFoundationFramework";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/libMEReactiveFoundation.a";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -880,6 +860,7 @@
 				79E1FA3918D5096600A2414E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79E1FA3A18D5096600A2414E /* Build configuration list for PBXNativeTarget "MEReactiveFoundationTests" */ = {
 			isa = XCConfigurationList;
@@ -888,6 +869,7 @@
 				79E1FA3C18D5096600A2414E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79E1FA9918D5127800A2414E /* Build configuration list for PBXNativeTarget "MEReactiveFoundationFramework" */ = {
 			isa = XCConfigurationList;
@@ -896,6 +878,7 @@
 				79E1FA9B18D5127800A2414E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79E1FA9C18D5127800A2414E /* Build configuration list for PBXNativeTarget "MEReactiveFoundationFrameworkTests" */ = {
 			isa = XCConfigurationList;
@@ -904,6 +887,7 @@
 				79E1FA9E18D5127800A2414E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

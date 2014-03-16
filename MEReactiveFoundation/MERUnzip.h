@@ -13,4 +13,7 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Private function used to implement unzip functionality on `NSArray`.
+ */
 extern id MERUnzip(id<NSObject,NSFastEnumeration> collection);

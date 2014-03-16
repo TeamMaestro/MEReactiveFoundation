@@ -13,6 +13,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Private functions used to implement fold functionality on `NSArray`, `NSSet`, and `NSDictionary`.
+ */
 extern id MERFoldLeft(id<NSObject,NSFastEnumeration> collection, id start, id(^block)(id accumulator, id value, BOOL *stop));
 extern id MERFoldLeftDictionary(NSDictionary *dictionary, id start, id(^block)(id accumulator, id<NSCopying> key, id value, BOOL *stop));
 

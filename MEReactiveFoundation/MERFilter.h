@@ -13,6 +13,9 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Private functions used to implement filter functionality on `NSArray`, `NSSet`, and `NSDictionary`.
+ */
 extern id MERFilter(id<NSObject,NSFastEnumeration> collection, BOOL(^block)(id value));
 extern NSDictionary *MERFilterDictionary(NSDictionary *dictionary, BOOL(^block)(id<NSCopying> key, id value));
 

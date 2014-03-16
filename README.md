@@ -9,3 +9,6 @@ The headers are documented. Read them.
 ###Tests
 
 Tests are included for all methods and functions.
+
+###Categories
+

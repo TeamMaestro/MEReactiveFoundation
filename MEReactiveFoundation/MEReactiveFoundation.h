@@ -14,12 +14,6 @@
 #ifndef _ME_REACTIVE_FOUNDATION_
 #define _ME_REACTIVE_FOUNDATION_
 
-#import <MEReactiveFoundation/MERMap.h>
-#import <MEReactiveFoundation/MERFilter.h>
-#import <MEReactiveFoundation/MERFold.h>
-#import <MEReactiveFoundation/MERZip.h>
-#import <MEReactiveFoundation/MERUnzip.h>
-
 #import <MEReactiveFoundation/NSArray+MERExtensions.h>
 #import <MEReactiveFoundation/NSSet+MERExtensions.h>
 #import <MEReactiveFoundation/NSDictionary+MERExtensions.h>

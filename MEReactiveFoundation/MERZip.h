@@ -13,4 +13,7 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Private function used to implement zip functionality on `NSArray`.
+ */
 extern id MERZip(id<NSObject,NSFastEnumeration> collection);
